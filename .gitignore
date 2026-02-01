@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+backend/venv/
+
+# Environment variables
+.env
+backend/.env
+*.env
+config.py    # optional if you have database config file
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# FastAPI / Uvicorn logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
